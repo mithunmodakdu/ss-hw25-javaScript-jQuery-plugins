@@ -1,5 +1,6 @@
 
 
+// :::::::::: jQuery ::::::::::::::::
 $(document).ready(function(){
     //counter example-1
     $('.counter').counterUp({
@@ -56,3 +57,5 @@ $(document).ready(function(){
 
 
 })
+
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animate-wow</title>
+
+       <!-- :::::::: CSS LINKS ::::::::: -->
+       <link rel="stylesheet" href="vendor/animate-wow/animate.css">
+       <link rel="stylesheet" href="css/bootstrap.css">
+       <link rel="stylesheet" href="css/style.css">
+       <link rel="stylesheet" href="css/media.css">
+       
+</head>
+<body>
+
+    <div class="container">
+        <h3>Animate-wow example-1</h3>
+        <h3 class="wow swing wow_ex1">Pursuit of Happiness</h3>
+    </div>
+
+    <div class="container wow fadeInDownBig wow_ex2">
+        <h3>Animate-wow example-2</h3>
+    </div>
+    <div class="container wow bounceOutRight wow_ex3">
+        <h3>Animate-wow example-3</h3>
+    </div>
+    <div class="container wow fadeInLeftBig wow_ex4">
+        <h3>Animate-wow example-4</h3>
+    </div>
+    <div class="container wow fadeInRightBig wow_ex5">
+        <h3>Animate-wow example-5</h3>
+    </div>
+    <div class="container wow fadeInUpBig wow_ex6">
+        <h3>Animate-wow example-6</h3>
+    </div>
+  
+   
+    
+    
+     
+   <!-- :::::::: SCRIPT LINKS ::::::::: -->
+   <script src="vendor/animate-wow/wow.min.js"></script>
+
+   <script>
+    wow = new WOW(
+    {
+        boxClass:     'wow',      
+        animateClass: 'animated', 
+        offset:       10,          
+        mobile:       true,       
+        live:         true        
+    }
+    )
+    wow.init();
+   </script>
+  
+   
+   <script src="js/bootstrap.bundle.min.js"></script>
+   
+</body>
+</html>

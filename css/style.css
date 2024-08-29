@@ -21,3 +21,39 @@
     font-size: 20px;
 }
 
+.wow_ex1{
+    color: red;
+    font-weight: 700;
+    text-align: center;
+}
+.wow_ex2{
+    background-color: #19f;
+    height: 500px;
+    width: 800px;
+    margin-top: 50px;
+}
+.wow_ex3{
+    background-color: red;
+    height: 500px;
+    width: 800px;
+    margin-top: 50px;
+}
+.wow_ex4{
+    background-color: gold;
+    height: 500px;
+    width: 800px;
+    margin-top: 50px;
+}
+.wow_ex5{
+    background-color:green;
+    height: 500px;
+    width: 800px;
+    margin-top: 50px;
+}
+.wow_ex6{
+    background-color: rgb(176, 255, 17);
+    height: 500px;
+    width: 800px;
+    margin-top: 50px;
+}
+
