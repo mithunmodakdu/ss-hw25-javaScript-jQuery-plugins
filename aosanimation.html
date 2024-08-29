@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AOS Animation</title>
+
+    <link rel="stylesheet" href="vendor/aos/aos.css">
+    <link rel="stylesheet" href="vendor/aos/styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <div id="transcroller-body" class="aos-all">
+        
+            <div class="aos-item" data-aos="zoom-out-down">
+              <div class="aos-item__inner"><h3></h3></div>
+            </div>
+            <div class="aos-item" data-aos="zoom-out-up">
+                <div class="aos-item__inner"><h3></h3></div>
+              </div>
+            <div class="aos-item" data-aos="flip-down">
+              <div class="aos-item__inner"><h3></h3></div>
+            </div>
+            <div class="aos-item" data-aos="flip-up">
+              <div class="aos-item__inner"><h3></h3></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="vendor/aos/aos.js"></script>
+    <script>
+        AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
+</body>
+</html>
